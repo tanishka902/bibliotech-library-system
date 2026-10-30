@@ -1,0 +1,26 @@
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+
+# Node / React
+node_modules/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+*.zip
+frontend/
